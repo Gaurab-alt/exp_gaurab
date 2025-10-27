@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bdy">
+    <link rel="stylesheet" href="moodtracker.css">
+    <div id="main-container">
+       <div id="div-for-topic">
+         <p id="heading">
+        Mood Tracker
+        </p>
+    
+       </div>
+       <div>
+        <input id="input-name" type="text" placeholder="Enter your name ">
+        <button id="submit-button" style="
+        width:50px;
+        border:none;
+        font-size: 10px;
+        height:20px;
+        margin-top:0px;
+        margin-left: 30px;
+        ">
+            Submit
+        </button>
+        <p id="name">
+
+        </p>
+       </div>
+       <div id="div-for-mood">
+        <p class="person">
+            Tell me about your mood! 
+        </p>
+       </div>
+       <div id="div-for-emj">
+        <p>
+            You can tell using these emojis
+        </p>
+       </div>
+       <div id="space-for-emojis">
+        <button id="sad-emoji">
+            😔
+        </button>
+        <button id="happy-emoji">
+            😁
+        </button>
+        <button id="amazed-emoji">
+            😮
+        </button>
+        <button id="angry-emoji">
+            😡
+        </button>
+        <button id="cool-emoji">
+            😎
+        </button>
+       </div>
+       <div class="feeling">
+       <p id="feel">
+       
+       </p>
+       </div>
+       <div>
+        <p id="ask-according-to-mood">
+
+        </p>
+        <input id="reasons" type="text" placeholder="Any reasons??">
+        <button id="reason-submit">
+            Submit
+        </button>
+        <p id="rreason">
+
+        </p>
+       </div>
+       <div class="prev-mood">
+        <p id="prev">
+            You can see your previous moods below
+        </p>
+        <p id="moods" style="
+        margin-top: 15px;
+        margin-left: 30px;
+        display: flex;
+        ">
+
+        </p>
+        <button id="delete-button" style="
+        
+          width:50px;
+        border:none;
+        font-size: 10px;
+        height:20px;
+        margin-top:0px;
+        margin-left: 30px;
+        "> 
+            Delete
+        </button>
+       </div>
+    </div>
+    <script src="moodtracker.js"></script>
+</body>
+</html>
